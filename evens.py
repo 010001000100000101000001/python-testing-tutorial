@@ -11,7 +11,7 @@ def even_number_of_evens(numbers):
     if isinstance(numbers, list):
         evens = 0
 
-        print([n for n in numbers])
+        print(sum([1 for n in numbers if n % 2 == 0]))
 
         for n in numbers:
             if n % 2 == 0:
